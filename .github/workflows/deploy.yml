@@ -42,4 +42,4 @@ jobs:
         run: |
           echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
           echo "MONGODB_USERNAME: $MONGODB_DB_NAME"
-          echo "GITHUB_EVENT_NAME: ${{ env.GITHUB_EVENT_PATH }}
+          echo "GITHUB_EVENT_NAME: ${{ env.GITHUB_EVENT_NAME }}"
